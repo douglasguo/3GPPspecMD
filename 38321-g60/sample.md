@@ -1,0 +1,3 @@
+Figure 6.1.2-3: R/LCID/(eLCID) MAC subheader
+
+MAC CEs are placed together. DL MAC subPDU(s) with MAC CE(s) is placed before any MAC subPDU with MAC SDU and MAC subPDU with padding as depicted in Figure 6.1.2-4. UL MAC subPDU(s) with MAC CE(s) is placed after all the MAC subPDU(s) with MAC SDU and before the MAC subPDU with padding in the MAC PDU as depicted in Figure 6.1.2-5. The size of padding can be zero.
