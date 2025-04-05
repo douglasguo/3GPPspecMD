@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 
-from collections import defaultdict
 import re, json, sys
 
 with open("figureAndImg.json", "r", encoding="utf-8") as f:
