@@ -50,6 +50,8 @@ print(f"Uppercase: {text.upper()}")  # invoke methods of string, >>> Uppercase: 
   * special char should be escapted by `re.escape()`
 ```python
 import re
+prog = re.compile(pattern)
+result = prog.match(string) # SAME AS BELOW
 text = "File: example.txt"
 pattern = "example.txt"  # . is a special char in regex
 safe_pattern = re.escape("example.txt")
