@@ -1,6 +1,15 @@
-textitication of 3GPP spec in MS word
+TEXTIFICATION of 3GPP SPEC To MD/HTML
+======
 
-## development in progress
+## PROJ REQURIEMENTS
+- STEP ONE: CONVERT MS WORD TO MD OR HTML TEXT FILES FOR EASIER PROCESSING
+- STEP TWO: ADD FEATURES FOR CHANGE TRACEABILITY
+  - TWO.1: MAP THE CHANGES TO THE CR NUM IN CHANGE HISTORY
+  - TWO.2: MAP THE CHANGES TO HISTORY AGREEMENTS
+- STEP THREE: AUTO SPEC REFERENCING 
+- STEP FOUR: TBD
+
+## DEV IN PROGRESS
 
 The following specs are under development with the following ToDoList
 
@@ -10,9 +19,10 @@ The following specs are under development with the following ToDoList
   - fomular saved as figure within text
 
 
-## future development plans
+## FUTURE DEVS
 
 The following specs are planned to be developed with the following potential issues to address:
 
 - TS 38.331
   - extract ASN1 as separate files (objects), while still be able to import them as file into the final deliverable
+  - asn1 code highlight (can use OSS Nokoval??)
