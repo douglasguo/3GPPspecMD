@@ -5,21 +5,20 @@
 
 ![image](https://images0.cnblogs.com/blog/446804/201303/26120808-66e6f260b7e849e593b4c9ddd649f6c0.png)
 
-- p command for priting, can be used to specifically print which line; used together with -n to suppress the printing comes natively with sed command
+- `p` command for priting, can be used to specifically print which line; used together with -n to suppress the printing comes natively with sed command
   - `sed -n '2,$ p' employee.txt` priting with range from line 2 to the end of the file
-    - n: line n
-    - n,m: matchs line n to m
-    - n,+m：line n and the subsequent m lines
-    - n~m：starting from line n, every m line
+    - `n`: line n
+    - `n,m`: matchs line n to m
+    - `n,+m`：line n and the subsequent m lines
+    - `n~m`：starting from line n, every m line
   - pattern matching
-    - /REGEX/p
-    - sed -n '/Raj/,/Jane/ p' employee.txt, print the lines which Raj apprears to the line which Jane apprears
-- d command, delete line
+    - `/REGEX/p`
+    - `sed -n '/Raj/,/Jane/ p' employee.txt`, print the lines which Raj apprears to the line which Jane apprears
+- `d` command, delete line
   - `sed '2,4 d' employee.txt ` remove the 2-4 line
   - `sed '/^$/ d' employee.txt` removes empty line
   - `sed '/^#/ d' employee.txt` removes comment line
-- w command, write pattern space to file
-  - 
+- `w `command, write pattern space to file
 
 ### resources
 [[1]](https://marslo.github.io/ibook/cheatsheet/text-processing/sed.html) sed ibook
