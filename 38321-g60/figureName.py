@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import sys, re, json
 from collections import defaultdict
 
